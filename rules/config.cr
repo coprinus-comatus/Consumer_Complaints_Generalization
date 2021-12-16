@@ -1,0 +1,10 @@
+SECTIONS
+{
+    @BODY(STANDARD,1 SCORE),
+    @TITLE(1 SCORE)
+}
+SEGMENTS
+{
+    @SEGMENT1(1.0),
+    @SEGMENT2(1.0)
+}

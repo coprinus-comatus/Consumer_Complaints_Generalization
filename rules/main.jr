@@ -1,0 +1,59 @@
+
+
+
+function shutdown() {
+
+}
+
+function initialize(cmdline) {
+
+
+	return true;
+}
+
+// enable this function if you need to modify text
+/*
+function onPrepare(text) {
+
+    return text;
+}
+*/
+
+// enable this function if you need to add tags to the disambiguation
+/*
+function onTagger() {
+}
+*/
+
+// enable this function if you need to modify standard json output or add custom output
+/*
+function onFinalize(result) {
+    
+    return result;
+}
+*/
+
+// enable this function if you need to apply language "D"
+function onCategorizer() {
+
+// smaccagnani - 2021-04-14 20:27:14 ora legale Europa occidentale
+// smaccagnani - 2021-04-14 20:27:14 ora legale Europa occidentale
+var RESULTS = CLONE(ALL);
+
+//MULTIPLY(RESULTS,"01.1",0.3)
+//MULTIPLY(RESULTS,"01.3",0.3)
+//MULTIPLY(RESULTS,"01.8",4)
+//MULTIPLY(RESULTS,"01.4",3)
+RESULTS = CLEAN(RESULTS,3);
+
+//RESULTS = FILTER(RESULTS,[20,60,80]);
+RESULTS = FILTER(RESULTS,[20,80]);
+
+//if (EMPTY(RESULTS)) {
+//	INSERT(RESULTS, "01.3")
+//}
+
+WINNERS = CLONE(RESULTS);
+
+
+}

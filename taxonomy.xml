@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOMAINTREE>
+    <DOMAIN NAME="BENCHMARKING_TAXONOMY" LABEL="">
+        <DOMAIN NAME="01.1" LABEL="Checking or savings account"/>
+        <DOMAIN NAME="01.2" LABEL="Credit card or prepaid card"/>
+        <DOMAIN NAME="01.3" LABEL="Credit reporting, credit repair services, or other personal consumer reports"/>
+        <DOMAIN NAME="01.4" LABEL="Debt collection"/>
+        <DOMAIN NAME="01.5" LABEL="Money transfer, virtual currency, or money service"/>
+        <DOMAIN NAME="01.6" LABEL="Mortgage"/>
+        <DOMAIN NAME="01.7" LABEL="Payday loan, title loan, or personal loan"/>
+        <DOMAIN NAME="01.8" LABEL="Student loan"/>
+        <DOMAIN NAME="01.9" LABEL="Vehicle loan or lease"/>
+    </DOMAIN>
+</DOMAINTREE>

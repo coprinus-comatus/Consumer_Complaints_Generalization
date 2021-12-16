@@ -1,0 +1,10 @@
+// smaccagnani - 2021-04-14 20:27:14 ora legale Europa occidentale
+IMPORT "09_vehicleloan.cr"
+IMPORT "01_checking_saving_account.cr"
+IMPORT "06_mortgage.cr"
+IMPORT "05_moneytransfer.cr"
+IMPORT "04_debt_collection.cr"
+IMPORT "02_credit_card.cr"
+IMPORT "08_studentloan.cr"
+IMPORT "07_paydayloan.cr"
+IMPORT "03_credit_reporting.cr"
