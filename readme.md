@@ -9,6 +9,7 @@ We allowed a multi-label classification, since the rules project is made to catc
 ## DOWNLOAD
 You can download this folder, and then open it using expert.ai Studio IDE.
 If you don't already have the Studio plugin installed, please follow the instructions <a href='https://docs.expert.ai/studio/latest/ide/?'>here</a>.
+You can also find the installer in <a href='https://developer.expert.ai/'>expert.ai developers' portal</a>. Please notice that you will need to create an account to access the portal.
 
 Once the project is opened and initialized, you can import the annotated dataset provided in the folder "package/libraries", under the name of "Consumer_complaints_generalization_20211215123126_scp". To do so, in Studio IDE, go in the menu called "Studio", select "Import Library" and select the dataset. The process should start automatically and fill the two folders "Test", where you'll find the documents, and "Ann" where you'll find the annotation - in BRAT format, compatible with Studio.
 
