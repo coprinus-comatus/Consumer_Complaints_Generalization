@@ -15,6 +15,6 @@ You can also find the installer in <a href='https://developer.expert.ai/'>expert
 Once the project is opened and initialized, you can import the annotated dataset provided in the folder "package/libraries", under the name of "Consumer_complaints_generalization_20211215123126_scp". To do so, in Studio IDE, go in the menu called "Studio", select "Import Library" and select the dataset. The process should start automatically and fill the two folders "Test", where you'll find the documents, and "Ann" where you'll find the annotation - in BRAT format, compatible with Studio.
 
 ## TESTING
-Once you have downloaded the project and the dataset, as described in the previous section, you can test the solution. To do so, hover your mouse curson over the "test" folder icon and now you can choose:
+Once you have downloaded the project and the dataset, as described in the previous section, you can test the solution. To do so, hover your mouse cursor over the "test" folder icon and now you can choose:
 * You can right click on this folder and select "Test all documents" to test everything in the test folder (both test and training set);
 * You can navigate to a specific subfolder (e.g. "test set") and right click on the icon and then select "Test all documents" to test only that subfolder.
