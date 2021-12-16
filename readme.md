@@ -1,3 +1,5 @@
+# CONSUMER COMPLAINTS GENERALIZATION PROJECT
+
 ## GENERAL
 This is the expert.ai Symbolic project for Consumer Complaints Dataset generalization that is referred in this <a href=''>TDS article</a>.
 Please notice that this project is composed of human made rules (found in the folder <i>rules</i>) that are made on top of a text analysis engine, that is not available here on github but will be automatically downloaded after opening the project folder in Studio IDE (see Download section below).
