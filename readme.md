@@ -8,6 +8,7 @@ In the folder "package/libraries", you can find the zip file "Consumer_complaint
 This project was developed to mimic lab conditions: we worked with 80k training documents, and tested on the remaining 9k. We built hand-made rules to catch significant textual clues for each class. You can find one rule file for each Consumer Complaint class, and some other files used for developments. We optimized the rules through a propagation tool, since we developed the project in a handful of days it was not possible to read and analyze the whole training set. So we applied an automatic tool that creates ready-made rules for each class and we picked the ones that guaranteed the best coverage. We allowed a multi-label classification, since the rules project is made to catch any textual clue in the document for each class, meaning that some documents might be referring to more than one class at a time.
 
 ## DOWNLOAD
+Please make sure you have a<a href='https://git-scm.com/book/en/v2/Getting-Started-Installing-Git'>Git</a> installed on your machine before going forward.
 You can download this folder, and then open it using expert.ai Studio IDE.
 If you don't already have the Studio plugin installed, please follow the <a href='https://docs.expert.ai/studio/latest/ide/?'>instructions</a>.
 You can also find the installer in <a href='https://developer.expert.ai/'>expert.ai developers' portal</a>. Please notice that you will need to create an account to access the portal.
